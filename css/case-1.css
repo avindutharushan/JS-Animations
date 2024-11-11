@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: #e7e7e7;
+}
+
+#title {
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 3.5rem;
+  color: rgb(226, 73, 106);
+}
+
+.container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-content {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.right-content img {
+  width: 80%;
+  padding-top: 25px;
+}
+
+.left-content hr {
+  width: 95%;
+  margin: 0;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+}
+
+.walking-man-container {
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.walking-man-container img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+.walking-man-container div {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  right: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(0, 158, 158);
+}

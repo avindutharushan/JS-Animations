@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-image: url(/assets/images/index/Benefits\ of\ project\ management\ software.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+.back {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.img {
+  background-color: black;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 0px 4px cyan;
+  border-radius: 100%;
+  overflow: hidden;
+  & img {
+    margin-top: -40px;
+    width: 320px;
+    opacity: 0.4;
+  }
+}
+h2,
+h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+}
+.container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cases {
+  padding-top: 10px;
+  margin-left: 30px;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cart {
+  transition: all 0.5s;
+  background-color: black;
+  box-shadow: 0px 0px 3px white;
+  height: 160px;
+  width: 115px;
+  border-radius: 8px;
+}
+.cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 3px cyan;
+  p,
+  h3 {
+    color: cyan;
+  }
+}
+p {
+  font-size: 30px;
+  color: white;
+}
+.imagediv {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & h2 {
+    font-size: 30px;
+  }
+}
+a {
+  text-decoration: none;
+}
+.heading {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50vw;
+  height: auto;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  height: 100vh;
+}
+@media screen and (min-width: 0) and (max-width: 575px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
